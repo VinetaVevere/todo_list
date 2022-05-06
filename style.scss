@@ -10,6 +10,15 @@ p, h1, h2, h3, h4, h5, h6, li, button {
     color: #801F15;
 }
 
+button {
+    background: #81C18F;
+    border-radius: 5px;
+    &:hover {
+        color: rebeccapurple;
+        transition: background 1s solor 1s;
+    }
+}
+
 .todo_list{
     margin-top:40px;
 }
